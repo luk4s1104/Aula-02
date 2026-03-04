@@ -110,9 +110,9 @@ int main() {
 	// exercicio 12
 	float num31, num32, num33;
 	printf("\n EXERCICIO 12 - Salario com relacao ao horario");
-	printf("\nDigite o total de hoaras trabalhadas(s/ hora extra):\n");
+	printf("\nDigite o total de horas trabalhadas(s/ hora extra):\n");
 	scanf("%f", &num31);
-	printf("Digite o total de hoars extras trabalhadas:\n");
+	printf("Digite o total de horas extras trabalhadas:\n");
 	scanf("%f", &num32),
 	num33 = (10*num31)+(15*num32);
 	printf("O seu salario sera de R$%.2f\n", num33);
@@ -143,3 +143,4 @@ int main() {
 	
 	return 0;
 }
+
